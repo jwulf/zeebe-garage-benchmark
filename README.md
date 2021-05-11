@@ -1,6 +1,9 @@
+[![Community Extension](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)
+[![Lifecycle: Stable](https://img.shields.io/badge/Lifecycle-Stable-brightgreen)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#stable-)
+
 # Zeebe TPS Test
 
-Uses the Zeebe Node client to do a ghetto TPS test. See [this post in the Zeebe forum](https://forum.zeebe.io/t/whats-the-broker-ratelimit-strategy/1370/2) for an example of the output.
+Uses the Zeebe Node client to do a TPS test. See [this post in the Zeebe forum](https://forum.zeebe.io/t/whats-the-broker-ratelimit-strategy/1370/2) for an example of the output.
 
 This is only useful to test the relative performance of releases - that is: you run this test on the same hardware with different releases to see how they differ.
 
